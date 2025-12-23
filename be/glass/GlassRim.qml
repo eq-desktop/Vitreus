@@ -18,7 +18,7 @@ Item {
     property real glowTheta1: 0.0
     property real glowTheta2: Math.PI
     property var baseColor: Qt.rgba(0,0,0,0)
-    property var lightDir: Qt.point(1, 1)
+    property var lightDir: Qt.vector2d(1, 1)
     Rectangle {
         anchors.fill: parent
         color: box.color
